@@ -1,0 +1,10 @@
+package com.wang.SpringHello;
+
+public class MessageServiceHello implements MessageService {
+
+	public String getMessage() {
+		// TODO Auto-generated method stub
+		return "Hello world";
+	}
+
+}

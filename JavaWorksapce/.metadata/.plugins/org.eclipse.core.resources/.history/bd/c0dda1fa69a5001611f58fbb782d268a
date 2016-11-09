@@ -1,0 +1,18 @@
+package com.wang.SpringHello;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MessagePrinter {
+	final private MessagePrinter service;
+	
+	public MessagePrinter(MessagePrinter service){
+		this.service = service;
+	}
+	
+	public void printMessage() {
+		System.out.println(this.service.getMessage());
+	}
+
+
+}

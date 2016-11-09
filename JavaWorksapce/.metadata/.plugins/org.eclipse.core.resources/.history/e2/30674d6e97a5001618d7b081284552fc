@@ -1,0 +1,16 @@
+package com.wang.AopProferm;
+
+public class Audience {
+
+	public void silenceCellphone(){
+		System.out.println("Silencing cell phones!");
+	}
+	
+	public void applause(){
+		System.out.println("CLAP CLAP ....!");
+	}
+	
+	public void demanRefund(){
+		System.out.println("Demanding a refund!");
+	}
+}

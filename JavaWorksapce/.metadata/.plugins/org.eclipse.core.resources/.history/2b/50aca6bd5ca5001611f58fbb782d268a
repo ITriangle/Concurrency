@@ -1,0 +1,19 @@
+package com.wang;
+
+public class SpringTest {
+
+	public static void main(String[] args) {
+		SpringWang s1 = SpringWang.getSpringWang();
+		SpringWang s2 = SpringWang.getSpringWang();
+		
+		if(s1 == s2){
+			System.out.println("s1与s2相同");
+			
+		}
+		else {
+			System.out.println("不同");
+		}
+
+	}
+
+}

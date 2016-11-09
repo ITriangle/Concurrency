@@ -1,0 +1,15 @@
+package com.wang;
+
+public class SpringWang {
+	private SpringWang(){
+		
+	}
+	
+	SpringWang springWang = new SpringWang();
+
+	public SpringWang getSpringWang() {
+		return springWang;
+	}
+	
+	
+}
