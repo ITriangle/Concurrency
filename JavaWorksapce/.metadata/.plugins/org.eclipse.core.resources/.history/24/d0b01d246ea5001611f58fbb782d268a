@@ -1,9 +1,0 @@
-package com.wang.SpringHello;
-
-public class MessageServiceHello implements MessageService {
-
-	public String getMessage() {
-		return "Hello world";
-	}
-
-}
